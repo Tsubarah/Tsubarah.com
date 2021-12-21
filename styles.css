@@ -99,7 +99,9 @@ footer {
 @media (min-width: 481px) {
     main {
         display: flex;
+        justify-content: space-evenly;
         flex-direction: row-reverse;
+        padding: 80px;
     }
     .bioText {
         align-items: flex-start;
