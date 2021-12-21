@@ -106,5 +106,8 @@ footer {
     .bioText {
         align-items: flex-start;
     }
+    .sectionsContainer {
+        width: 600px;
+    }
 }
 
