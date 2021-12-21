@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(grey, white);
+    background-repeat: no-repeat;
+    font-family: 'Libre Baskerville', serif;
+    color: #151617;
+}
+
+header {
+    width: 100%;
+    padding-top: 40px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText {
+    padding: 20px;
+}
+
+.mySkills {
+    padding: 20px;
+}
+
+.mySkills ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.mySkills li {
+    padding: 10px;
+}
+
+.bio {
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.img-container {
+    margin: auto auto;
+    width: 300px;
+    height: 300px;
+}
+
+.bio img {
+    width: 100%;
+    height: auto;
+    border-radius: 200px;
+    box-shadow: 3px -1px 2px #4e4e4e;
+}
+
+.bioText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myIcons {
+    margin-top: 30px;
+}
+
+.myIcons a {
+    padding: 10px;
+}
+
+@media (min-width: 481px) {
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .bioText {
+        align-items: flex-start;
+    }
+}
+
