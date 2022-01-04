@@ -5,6 +5,7 @@ html, body {
     background-repeat: no-repeat;
     font-family: 'Libre Baskerville', serif;
     color: #151617;
+    scroll-behavior: smooth;
 }
 
 h1 {
