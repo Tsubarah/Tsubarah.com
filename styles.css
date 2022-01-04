@@ -1,11 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(grey, white);
+    background-image: linear-gradient(#8080805e, white);
     background-repeat: no-repeat;
     font-family: 'Libre Baskerville', serif;
     color: #151617;
 }
+
 
 header {
     width: 100%;
@@ -31,34 +32,35 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* main {
-    display: flex;
-    flex-direction: column;
+main {
+    display: block;
     justify-content: center;
-    align-items: center;
-} */
+    margin: auto auto;
+    padding: 10px;
+}
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.bioContainer {
+    display: block;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
 }
 
 .aboutText {
     padding: 20px;
 }
 
-.mySkills {
+.mySkillsContainer {
+    display: block;
+    justify-content: space-between;
     padding: 20px;
 }
 
-.mySkills ul {
+.mySkillsContainer ul {
     list-style-type: none;
     padding: 0px;
 }
 
-.mySkills li {
+.mySkillsContainer li {
     padding: 10px;
 }
 
@@ -77,8 +79,8 @@ footer {
 .bio img {
     width: 100%;
     height: auto;
-    border-radius: 200px;
-    box-shadow: 3px -1px 2px #4e4e4e;
+    border-radius: 50%;
+    box-shadow: -5px 0px 5px #4e4e4e;
 }
 
 .bioText {
@@ -89,7 +91,11 @@ footer {
 }
 
 .myIcons {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
+    padding: 0px;
+    box-shadow: 0px;
 }
 
 .myIcons a {
@@ -98,16 +104,40 @@ footer {
 
 @media (min-width: 481px) {
     main {
-        display: flex;
+        display: block;
         justify-content: space-evenly;
-        flex-direction: row-reverse;
-        padding: 80px;
+        width: 70vw;
+        margin: auto auto;
+        padding: 10px;
+        /* padding: 80px; */
     }
-    .bioText {
-        align-items: flex-start;
+    h1, .mySkillsContainer h2 {
+        font-size: 2rem;
+    }
+    p, ul li, nav a {
+        font-size: 1.5rem;
+    }
+    .bioContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 20px;
     }
     .sectionsContainer {
         width: 600px;
+    }
+    .myIcons {
+        align-self: flex-end;
+        padding: 0px 40px 10px 0px;
+    }
+    .aboutText {
+        width: 30vw;
+        padding: 0px;
+    }
+    .mySkillsContainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
     }
 }
 
