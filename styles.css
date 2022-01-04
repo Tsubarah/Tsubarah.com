@@ -7,6 +7,14 @@ html, body {
     color: #151617;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    display: block;
+    flex-wrap: nowrap;
+}
 
 header {
     width: 100%;
@@ -14,6 +22,7 @@ header {
 }
 
 p {
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
@@ -39,6 +48,10 @@ main {
     padding: 10px;
 }
 
+.mySkills h2 {
+    font-size: 2rem;
+}
+
 .bioContainer {
     display: block;
     justify-content: space-evenly;
@@ -47,6 +60,14 @@ main {
 
 .aboutText {
     padding: 20px;
+}
+
+.aboutText h1, .mySkills h2 {
+    margin-bottom: 0px;
+}
+
+.aboutText p {
+    margin-top: 10px;
 }
 
 .mySkillsContainer {
@@ -61,6 +82,7 @@ main {
 }
 
 .mySkillsContainer li {
+    font-size: 1.5rem;
     padding: 10px;
 }
 
@@ -102,7 +124,7 @@ main {
     padding: 10px;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 1025px) {
     main {
         display: block;
         justify-content: space-evenly;
