@@ -59,7 +59,7 @@ main {
 }
 
 .aboutText {
-    padding: 20px;
+    padding: 10px;
 }
 
 .aboutText h1, .mySkills h2 {
@@ -73,7 +73,7 @@ main {
 .mySkillsContainer {
     display: block;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
 }
 
 .mySkillsContainer ul {
@@ -131,7 +131,6 @@ main {
         width: 70vw;
         margin: auto auto;
         padding: 10px;
-        /* padding: 80px; */
     }
     h1, .mySkillsContainer h2 {
         font-size: 2rem;
