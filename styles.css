@@ -10,6 +10,7 @@ html, body {
 
 h1 {
     font-size: 2rem;
+    margin-top: 80px;
 }
 
 h3 {
@@ -131,6 +132,9 @@ main {
         width: 70vw;
         margin: auto auto;
         padding: 10px;
+    }
+    h1 {
+        margin-top: 40px;
     }
     h1, .mySkillsContainer h2 {
         font-size: 2rem;
