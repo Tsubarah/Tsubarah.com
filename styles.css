@@ -1,3 +1,14 @@
+@keyframes slideIn {
+    from {
+        margin-left: -800px;
+    }
+}
+@keyframes slideIn2 {
+    from {
+        margin-left: -1300px;
+    }
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -83,6 +94,7 @@ main {
 }
 
 .mySkillsContainer li {
+    position: relative;
     font-size: 1.5rem;
     padding: 10px;
 }
@@ -163,6 +175,18 @@ main {
         display: flex;
         justify-content: space-between;
         padding: 20px;
+    }
+    .slideRight li:nth-child(1) {
+        position: relative;
+        animation: slideIn 4s;
+    }
+    .slideRight li:nth-child(2) {
+        position: relative;
+        animation: slideIn 5s;
+    }
+    .slideRight li:nth-child(3) {
+        position: relative;
+        animation: slideIn2 6s;
     }
 }
 
